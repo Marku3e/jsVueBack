@@ -1,0 +1,61 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #000;
+  width: auto;
+  height: 100%;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+html,
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+ol,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+i,
+b {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: #333;
+}
+
+.r {
+  float: right;
+}
+
+.l {
+  float: left;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
