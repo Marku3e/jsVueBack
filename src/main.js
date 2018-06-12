@@ -43,9 +43,12 @@ router.beforeEach((to, form, next) => {
 
 
 /* eslint-disable no-new */
-new Vue({
+let realVue = new Vue({
   el: '#app',
   router,
   components: {App},
   template: '<App/>'
 })
+export default {
+  vue: realVue
+}
